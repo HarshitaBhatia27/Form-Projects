@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Project 1</title>
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form>
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name"><br/>
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email"><br/>
+        <label for="phone">Phone:</label><br/>
+        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br/>
+        <label for="occupation">Occupation:</label><br/><br/>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="Professional">Professional</option>
+            <option value="other">Other</option>
+        </select><br/><br/>
+        <fieldset>
+            <legend>Topics of Interest:</legend>
+        
+        <input type="checkbox" id="html" name="checkbox"><br/>
+        <label for="html">HTML</label><br/><br/>
+        <input type="checkbox" id="css" name="checkbox"><br/>
+        <label for="css">CSS</label><br/><br/>
+        <input type="checkbox" id="js" name="checkbox"><br/>
+        <label for="js">JavaScript</label><br/>
+        </fieldset>
+        <br/>
+        <label for="comment">Comments:</label><br/>
+        <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+        <button>Register</button>
+    </form>
+</body>
+</html>
